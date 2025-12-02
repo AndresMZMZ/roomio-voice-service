@@ -19,7 +19,7 @@ const io = new Server(server, { cors: { origin: "*" } });
 
 const PORT = process.env.PORT ? Number(process.env.PORT) : 3000;
 
-// Tipos para salas y participantes
+// Types for meetings and users/participants
 type MeetingId = string;
 type UserId = string;
 
